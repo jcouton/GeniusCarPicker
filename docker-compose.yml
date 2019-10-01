@@ -1,0 +1,31 @@
+version: "3.7"
+
+services:
+  back:
+    image: menaren/genius-car-picker-back:latest
+    restart: always
+    container_name: genius-car-picker-back
+    ports:
+      - 7000:8081
+    environment:
+      DB_USERNAME: gcp
+      DB_PASSWORD: example
+  front:
+    image: menaren/genius-car-picker-front:latest
+    restart: always
+    container_name: genius-car-picker-front
+    ports:
+      - 7001:80
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: gcp
+      POSTGRES_PASSWORD: example
+
+#  adminer:
+#    image: adminer
+#    restart: always
+#    ports:
+#      - 6999:8080
