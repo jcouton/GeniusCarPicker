@@ -78,6 +78,6 @@ front:
     restart: always
     container_name: genius-car-picker-front
     ports:
-      # l'api sera visible sur le port 7001 de la machine hôte
+      # l'application sera visible sur le port 7001 de la machine hôte
       - 7001:80
 ```
