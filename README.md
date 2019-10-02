@@ -4,7 +4,10 @@
 
 ### Architecture
 
-un back / un front / une database
+L'application est composée de trois modules : 
+
+![archi](https://raw.githubusercontent.com/menaren/GeniusCarPickerDoc/master/Presentation%20projet/diagram/archi.PNG?token=AAKQDGJ252B5ORHTDURUAB25TWGDY "Architecture")
+
 
 ### Pré-requis
 
