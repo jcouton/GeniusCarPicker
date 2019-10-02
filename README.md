@@ -8,7 +8,7 @@ un back / un front / une database
 
 ### Pré-requis
 
-Serveur Linux x64
+L'hébergement de l'application Genius Car Picker doit se faire sur un serveur Linux x64 (idéalement centOS).
 
 ## Installation
 
